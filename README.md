@@ -22,6 +22,8 @@ Before you can use Sollu, you need:
 
 ## Installation 
 
+It's highly recommended to install `sollu` within a virtual environment. 
+
 ```bash
 pip install sollu
 ```
@@ -54,15 +56,18 @@ Once installed and configured, you can use the define command to look up words:
 ```bash
 sollu define <word1> <word2> ...
 ```
-### Example
-Define single word
+### Examples
+Defining a single word
 ```bash
-sollu define life
+sollu define work-ethic
 ```
-Define multiple words:
+![Single word](images/output_word.png)
+
+Defining multiple words:
 ```bash
-sollu define ubiquitous stoic
+sollu define stoic healthy
 ```
+![Multiple words](images/output_multiple_words.png)
 
 ## License
 

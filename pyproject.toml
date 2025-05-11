@@ -1,6 +1,6 @@
 [project]
 name = "sollu"
-version = "0.0.1"
+version = "0.0.2"
 description = "Fetch definitions and example sentences for words directly from your terminal"
 readme = "README.md"
 authors = [{name = "Ashvanth.S"}]

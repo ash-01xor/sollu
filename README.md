@@ -2,6 +2,7 @@
 Your Terminal Dictionary powered by AI
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://github.com/ash-01xor/Sollu/blob/main/LICENSE)
+[![PyPI version](https://img.shields.io/pypi/v/sollu.svg)](https://pypi.org/project/sollu/)
 
 ## Overview
 

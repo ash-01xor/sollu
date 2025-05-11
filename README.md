@@ -61,13 +61,13 @@ Defining a single word
 ```bash
 sollu define work-ethic
 ```
-![Single word](images/output_word.png)
+![Single word](https://raw.githubusercontent.com/ash-01xor/sollu/refs/heads/main/images/output_word.png)
 
 Defining multiple words:
 ```bash
 sollu define stoic healthy
 ```
-![Multiple words](images/output_multiple_words.png)
+![Multiple words](https://raw.githubusercontent.com/ash-01xor/sollu/refs/heads/main/images/output_multiple_words.png)
 
 ## License
 

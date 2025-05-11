@@ -1,0 +1,35 @@
+[project]
+name = "sollu"
+version = "0.0.1"
+description = "Fetch definitions and example sentences for words directly from your terminal"
+readme = "README.md"
+authors = [{name = "Ashvanth.S"}]
+license = "Apache-2.0"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha"
+]
+
+dependencies = [
+    "click",
+    "google-genai",
+    "pydantic",
+    "pytest",
+    "python-dotenv",
+    "rich"
+]
+
+[project.urls]
+Homepage = "https://github.com/ash-01xor/sollu"
+
+[tool.setuptools]
+package-dir = {"" = "src"} 
+
+[tool.setuptools.packages.find]
+where = ["src"] 
+
+[project.scripts]
+sollu = "sollu.sollu:cli"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-mock"]
+
